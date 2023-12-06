@@ -1,12 +1,13 @@
-import './App.css'
+import PersistentDrawer from "./components/Drawer";
+//import Home from "./components/home";
 
 function App() {
-
+ 
   return (
-    <>
-    <h1>Hello</h1>
-    </>
-  )
+    <div className="App">
+      <PersistentDrawer />
+    </div>
+  );
 }
 
-export default App
+export default App;
